@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600&display=swap");
+.wbtn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.top {
+  background: #B62033;
+}
+.top-mid {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -46px;
+}
+
+.bg-light {
+  height: 100px;
+}
+
+.search {
+  background-color: #000;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner {
+  height: 550px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/banner.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.png);
+  background-size: cover;
+}
+.banner .content {
+  padding: 5rem;
+}
+.banner .content h4 {
+  font-family: Oswald;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.banner .content h1 {
+  font-family: Oswald;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 118px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.icon1 {
+  background: rgba(247, 192, 59, 0.5);
+  height: 200px;
+}
+
+.icon2 {
+  background: rgba(34, 43, 82, 0.5);
+  height: 200px;
+}
+
+.icon3 {
+  background: rgba(182, 32, 51, 0.5);
+  height: 200px;
+}
+
+.about {
+  padding: 80px 0;
+}
+.about-left h1 {
+  font-family: Oswald;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110px;
+}
+.about-right p {
+  font-family: "roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.courses {
+  color: #fff;
+}
+.courses-title {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.sboximg {
+  position: relative;
+}
+.sboximg .sboxc {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.sboximg .sboxc .h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.sboximg .sboxc .p {
+  font-weight: 300;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
